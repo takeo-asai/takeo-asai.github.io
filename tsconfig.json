@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": false,
+    "noEmitOnError": true,
+    "outDir": "./"
+  },
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
