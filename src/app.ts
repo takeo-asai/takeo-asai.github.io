@@ -1,8 +1,7 @@
 import angular = require("angular");
-import "bootstrap";
-import "jquery";
 import "angular-ui-router";
 import 'angular-ui-bootstrap';
+import "bootstrap-loader";
 
 angular.module("starter", ["ui.router", "ui.bootstrap"])
   .config(function ($stateProvider: ng.ui.IStateProvider, $urlRouterProvider: ng.ui.IUrlRouterProvider) {

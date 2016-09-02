@@ -21,15 +21,20 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.ts$/, loaders: ['ng-annotate', 'ts-loader'] },
-      { test: /\.css$/, loader: "style-loader!css-loader" }
+      { test: /\.css$/, loader: 'style-loader!css-loader' },
+      { test: /\.svg$/, loader: 'url-loader?mimetype=image/svg+xml' },
+      { test: /\.woff$/, loader: 'url-loader?mimetype=application/font-woff' },
+      { test: /\.woff2$/, loader: 'url-loader?mimetype=application/font-woff' },
+      { test: /\.eot$/, loader: 'url-loader?mimetype=application/font-woff' },
+      { test: /\.ttf$/, loader: 'url-loader?mimetype=application/font-woff' }
     ]
   },
   plugins: [
     new WebpackNotifierPlugin(),
     new webpack.ProvidePlugin({    // <added>
-        jQuery: 'jquery',
-        $: 'jquery',
-        jquery: 'jquery'   // </added>
+      jQuery: 'jquery',
+      $: 'jquery',
+      jquery: 'jquery'   // </added>
     }),
     new webpack.optimize.UglifyJsPlugin({ minimize: true })  // minify
   ]
