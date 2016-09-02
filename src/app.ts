@@ -3,6 +3,8 @@ import "angular-ui-router";
 import 'angular-ui-bootstrap';
 import "bootstrap-loader";
 
+import headerComponent from "./header";
+
 angular.module("starter", ["ui.router", "ui.bootstrap"])
 
   .component('listComponent', {
@@ -18,6 +20,7 @@ angular.module("starter", ["ui.router", "ui.bootstrap"])
     },
     template: `<div>Hello {{ $ctrl.message }}</div>`,
   })
+  .component("headerComponent", headerComponent)
 
   .config(function ($stateProvider: ng.ui.IStateProvider, $urlRouterProvider: ng.ui.IUrlRouterProvider) {
     "ngInject";
