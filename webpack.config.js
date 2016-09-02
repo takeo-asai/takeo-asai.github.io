@@ -20,11 +20,17 @@ module.exports = {
   devtool: (process.env.ENV === 'release') ? 'eval' : 'inline-source-map',
   module: {
     loaders: [
-      { test: /\.ts$/, loaders: ['ng-annotate', 'ts-loader'] }
+      { test: /\.ts$/, loaders: ['ng-annotate', 'ts-loader'] },
+      { test: /\.css$/, loader: "style-loader!css-loader" }
     ]
   },
   plugins: [
     new WebpackNotifierPlugin(),
+    new webpack.ProvidePlugin({    // <added>
+        jQuery: 'jquery',
+        $: 'jquery',
+        jquery: 'jquery'   // </added>
+    }),
     new webpack.optimize.UglifyJsPlugin({ minimize: true })  // minify
   ]
 }
