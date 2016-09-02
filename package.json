@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/takeo-asai/takeo-asai.github.io/issues"
   },
-  "homepage": "https://github.com/takeo-asai/takeo-asai.github.io#readme"
+  "homepage": "https://github.com/takeo-asai/takeo-asai.github.io#readme",
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
 }
