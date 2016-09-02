@@ -25,6 +25,6 @@ module.exports = {
   },
   plugins: [
     new WebpackNotifierPlugin(),
-    new webpack.optimize.UglifyJsPlugin({minimize: true})  // minify
+    new webpack.optimize.UglifyJsPlugin({ minimize: true })  // minify
   ]
 }
