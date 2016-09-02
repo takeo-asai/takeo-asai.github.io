@@ -31,11 +31,7 @@ module.exports = {
   },
   plugins: [
     new WebpackNotifierPlugin(),
-    new webpack.ProvidePlugin({    // <added>
-      jQuery: 'jquery',
-      $: 'jquery',
-      jquery: 'jquery'   // </added>
-    }),
+    new webpack.ProvidePlugin({ jQuery: 'jquery', $: 'jquery', jquery: 'jquery' }),
     new webpack.optimize.UglifyJsPlugin({ minimize: true })  // minify
   ]
 }
