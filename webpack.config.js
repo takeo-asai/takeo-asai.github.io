@@ -17,9 +17,13 @@ module.exports = {
     'node_modules',
   ],
   watch: true,
+  cache: true,
   devtool: (process.env.ENV === 'release') ? 'eval' : 'inline-source-map',
   module: {
     loaders: [
+      { test: /\.html$/, loader: 'ng-cache' },
+      { test: /\.jpg$/, loader: 'url?name=img/[name].[ext]&mimetype=image/jpeg' },
+      { test: /\.png$/, loader: 'url?name=img/[name].[ext]&mimetype=image/png' },
       { test: /\.ts$/, loaders: ['ng-annotate', 'ts-loader'] },
       { test: /\.css$/, loader: 'style-loader!css-loader' },
       { test: /\.svg$/, loader: 'url-loader?mimetype=image/svg+xml' },
