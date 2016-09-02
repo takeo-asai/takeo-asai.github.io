@@ -1,4 +1,9 @@
 {
   "name": "takeo-asai.github.io",
-  "dependencies": {}
+  "dependencies": {},
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160829152510",
+    "angular-ui-bootstrap": "registry:dt/angular-ui-bootstrap#0.13.3+20160705221453",
+    "jquery": "registry:dt/jquery#1.10.0+20160704162008"
+  }
 }
