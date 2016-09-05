@@ -4,7 +4,7 @@ import {BrowserModule} from "@angular/platform-browser";
 import {CommonModule} from '@angular/common';
 
 import HeaderComponent from "./header";
-import SkillComponent from "./skill";
+import ExperienceComponent from "./experience";
 import CareerComponent from "./career";
 
 @Component({
@@ -20,7 +20,7 @@ class AppComponent { }
   ],
   // TODO: Add all components here!
   declarations: [
-    SkillComponent,
+    ExperienceComponent,
     HeaderComponent,
     AppComponent,
     CareerComponent,
