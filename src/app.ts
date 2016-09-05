@@ -5,6 +5,7 @@ import {CommonModule} from '@angular/common';
 
 import HeaderComponent from "./header";
 import SkillComponent from "./skill";
+import CareerComponent from "./career";
 
 @Component({
   selector: "my-app",
@@ -22,6 +23,7 @@ class AppComponent { }
     SkillComponent,
     HeaderComponent,
     AppComponent,
+    CareerComponent,
   ],
   bootstrap: [AppComponent],
 })
