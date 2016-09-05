@@ -1,20 +1,12 @@
 import "reflect-metadata";
 
-import {Component, NgModule} from "@angular/core";
-
-@Component({
-  selector: "my-app",
-  template: `<div>test</div>`,
-})
-class AppComponent {
-
-}
-
+import {NgModule} from "@angular/core";
 
 import {BrowserModule} from "@angular/platform-browser";
 import {CommonModule} from '@angular/common';
 
 import HeaderComponent from "./header";
+import SkillComponent from "./skill";
 
 @NgModule({
   imports: [
@@ -22,10 +14,10 @@ import HeaderComponent from "./header";
     CommonModule,
   ],
   declarations: [
-    AppComponent,
+    SkillComponent,
     HeaderComponent,
   ],
-  bootstrap: [AppComponent, HeaderComponent],
+  bootstrap: [HeaderComponent, SkillComponent],
 })
 class AppModule {
 }

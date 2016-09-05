@@ -1,19 +1,18 @@
-class SkillController {
-  public name: string;
-  public description: string;
-  constructor() {    
-    "ngInject";
+import {Component, Input} from "@angular/core";
+
+@Component({
+  selector: "skill-component",
+  template: require('./template.html'),
+  styles: [require("./style.css")],
+  
+})
+export default class SkillComponent {
+  @Input() name: string;
+  @Input() description: string;
+  constructor() {
+    console.log(this.name);
+    
+//    this.name = "hello world!";
+    this.description = "description";
   }
 }
-
-// Header
-let SkillComponent: angular.IComponentOptions = {
-  bindings: {
-    name: "=",
-    description: "=",
-  },
-  controller: SkillController,
-  template: require("./template.html"),
-};
-export default SkillComponent;
-

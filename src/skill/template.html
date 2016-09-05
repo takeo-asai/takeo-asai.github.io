@@ -1,8 +1,6 @@
-<button type="button" class="btn btn-default" ng-click="$ctrl.isCollapsed[$ctrl.name] = !$ctrl.isCollapsed[$ctrl.name]">
-  [{{$ctrl.name}}]
+<button type="button">
+  [{{name}}]
 </button>
-<div uib-collapse="!$ctrl.isCollapsed[$ctrl.name]">
-  <div class="well well-lg">
-    {{$ctrl.description}}
-  </div>
+<div>
+  {{description}}
 </div>

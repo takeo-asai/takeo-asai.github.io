@@ -1,5 +1,3 @@
-// import css from "./style.css";
-
 import {Component} from "@angular/core";
 
 @Component({
