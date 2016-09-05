@@ -1,5 +1,3 @@
-import "reflect-metadata";
-
 import {NgModule, Component} from "@angular/core";
 
 import {BrowserModule} from "@angular/platform-browser";
@@ -12,13 +10,14 @@ import SkillComponent from "./skill";
   selector: "my-app",
   template: require("./template.html"),
 })
-class AppComponent {}
+class AppComponent { }
 
 @NgModule({
   imports: [
     BrowserModule,
     CommonModule,
   ],
+  // TODO: Add all components here!
   declarations: [
     SkillComponent,
     HeaderComponent,
@@ -26,13 +25,8 @@ class AppComponent {}
   ],
   bootstrap: [AppComponent],
 })
-class AppModule {
-}
+class AppModule { }
 
-import "core-js";
-import "rxjs/Rx";
-import "zone.js/dist/zone";
 import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
-
 
 platformBrowserDynamic().bootstrapModule(AppModule);

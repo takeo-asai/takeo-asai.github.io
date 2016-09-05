@@ -3,10 +3,11 @@ var path = require('path');
 var WebpackNotifierPlugin = require('webpack-notifier');
 module.exports = {
   entry: {
-    app: ['./src/app.ts']
+    app: ['./src/app.ts'],
+    bundle: ['reflect-metadata', 'core-js', "rxjs/Rx", "zone.js/dist/zone"]
   },
   output: {
-    filename: './app.dist.js'
+    filename: './[name].dist.js'
   },
   resolve: {
     root: [path.join(__dirname, 'node_modules'), path.join(__dirname, 'bower_components')],
