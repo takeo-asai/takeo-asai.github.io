@@ -10,9 +10,10 @@ export default class SkillComponent {
   @Input() name: string;
   @Input() description: string;
   constructor() {
-    console.log(this.name);
-    
 //    this.name = "hello world!";
-    this.description = "description";
+//    this.description = "description";
+  }
+  public ngOnInit() {
+  //  console.log("ngOnInit()", this.name, this.description);
   }
 }
