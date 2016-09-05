@@ -4,6 +4,7 @@ import 'angular-ui-bootstrap';
 import "bootstrap-loader";
 
 import headerComponent from "./header";
+import skillComponent from "./skill";
 
 angular.module("starter", ["ui.router", "ui.bootstrap"])
 
@@ -21,6 +22,7 @@ angular.module("starter", ["ui.router", "ui.bootstrap"])
     template: `<div>Hello {{ $ctrl.message }}</div>`,
   })
   .component("headerComponent", headerComponent)
+  .component("skillComponent", skillComponent)
 
   .config(function ($stateProvider: ng.ui.IStateProvider, $urlRouterProvider: ng.ui.IUrlRouterProvider) {
     "ngInject";
