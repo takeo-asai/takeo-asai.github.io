@@ -1,12 +1,12 @@
 import {Component, Input} from "@angular/core";
 
 @Component({
-  selector: "skill-component",
+  selector: "experience-component",
   template: require('./template.html'),
   styles: [require("./style.css")],
   
 })
-export default class SkillComponent {
+export default class ExperienceComponent {
   @Input() name: string;
   @Input() description: string;
   constructor() {
