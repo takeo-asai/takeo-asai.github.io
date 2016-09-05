@@ -1,3 +1,8 @@
-<button type="button" class="btn btn-primary" ng-model="singleModel" uib-btn-checkbox btn-checkbox-true="1" btn-checkbox-false="0">
+<button type="button" class="btn btn-default" ng-click="$ctrl.isCollapsed[$ctrl.name] = !$ctrl.isCollapsed[$ctrl.name]">
   [{{$ctrl.name}}]
 </button>
+<div uib-collapse="!$ctrl.isCollapsed[$ctrl.name]">
+  <div class="well well-lg">
+    {{$ctrl.description}}
+  </div>
+</div>

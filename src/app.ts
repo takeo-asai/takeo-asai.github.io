@@ -8,19 +8,6 @@ import skillComponent from "./skill";
 
 angular.module("starter", ["ui.router", "ui.bootstrap"])
 
-  .component('listComponent', {
-    bindings: {
-      message: '=',
-    },
-    controller: class {
-      public message: string;
-      constructor() {
-        "ngInject";
-        this.message = "test";
-      }
-    },
-    template: `<div>Hello {{ $ctrl.message }}</div>`,
-  })
   .component("headerComponent", headerComponent)
   .component("skillComponent", skillComponent)
 
