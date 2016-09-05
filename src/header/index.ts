@@ -1,16 +1,13 @@
 // import css from "./style.css";
 
-// Header
-let HeaderComponent: angular.IComponentOptions = {
-  bindings: {
-  },
-  controller: HeaderController,
-  template: require("./template.html"),
-};
-export default HeaderComponent;
+import {Component} from "@angular/core";
 
-class HeaderController {
+@Component({
+  selector: "header-component",
+  template: require('./template.html'),
+  styles: [require("./style.css")]
+})
+export default class HeaderComponent {
   constructor() {
-    "ngInject";
   }
 }

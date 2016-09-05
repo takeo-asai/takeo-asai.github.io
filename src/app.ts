@@ -1,26 +1,39 @@
-import angular = require("angular");
-import "angular-ui-router";
-import 'angular-ui-bootstrap';
-import "bootstrap-loader";
+import "reflect-metadata";
 
-import headerComponent from "./header";
-import skillComponent from "./skill";
+import {Component, NgModule} from "@angular/core";
 
-angular.module("starter", ["ui.router", "ui.bootstrap"])
+@Component({
+  selector: "my-app",
+  template: `<div>test</div>`,
+})
+class AppComponent {
 
-  .component("headerComponent", headerComponent)
-  .component("skillComponent", skillComponent)
+}
 
-  .config(function ($stateProvider: ng.ui.IStateProvider, $urlRouterProvider: ng.ui.IUrlRouterProvider) {
-    "ngInject";
 
-    $stateProvider
-      .state("app", {
-        url: "/",
-        templateUrl: "src/index.html"
-      })
+import {BrowserModule} from "@angular/platform-browser";
+import {CommonModule} from '@angular/common';
 
-      ;
+import HeaderComponent from "./header";
 
-    $urlRouterProvider.otherwise("/");
-  });
+@NgModule({
+  imports: [
+    BrowserModule,
+    CommonModule,
+  ],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+  ],
+  bootstrap: [AppComponent, HeaderComponent],
+})
+class AppModule {
+}
+
+import "core-js";
+import "rxjs/Rx";
+import "zone.js/dist/zone";
+import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
+
+
+platformBrowserDynamic().bootstrapModule(AppModule);

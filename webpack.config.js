@@ -21,11 +21,11 @@ module.exports = {
   devtool: (process.env.ENV === 'release') ? 'eval' : 'inline-source-map',
   module: {
     loaders: [
-      { test: /\.html$/, loader: 'ng-cache' },
+      { test: /\.html$/, loader: "raw-loader" },
       { test: /\.jpg$/, loader: 'url?name=img/[name].[ext]&mimetype=image/jpeg' },
       { test: /\.png$/, loader: 'url?name=img/[name].[ext]&mimetype=image/png' },
       { test: /\.ts$/, loaders: ['ng-annotate', 'ts-loader'] },
-      { test: /\.css$/, loader: 'style-loader!css-loader' },
+      { test: /\.css$/, loader: 'raw-loader' },
       { test: /\.svg$/, loader: 'url-loader?mimetype=image/svg+xml' },
       { test: /\.woff$/, loader: 'url-loader?mimetype=application/font-woff' },
       { test: /\.woff2$/, loader: 'url-loader?mimetype=application/font-woff' },
