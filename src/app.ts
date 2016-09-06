@@ -7,6 +7,7 @@ import HeaderComponent from "./header";
 import ExperienceComponent from "./experience";
 import SkillComponent from "./skill";
 import EducationComponent from "./education";
+import ContactComponent from "./contact";
 
 @Component({
   selector: "my-app",
@@ -26,6 +27,7 @@ class AppComponent { }
     AppComponent,
     SkillComponent,
     EducationComponent,
+    ContactComponent,
   ],
   bootstrap: [AppComponent],
 })
