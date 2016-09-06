@@ -7,6 +7,6 @@ import {Component, Input} from "@angular/core";
 })
 export default class EducationComponent {
   @Input() schoolName: string;
-  @Input() description: string;
+  @Input() department: string;
   constructor() { }
 }
