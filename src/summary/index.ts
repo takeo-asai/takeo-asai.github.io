@@ -6,6 +6,6 @@ import {Component, Input} from "@angular/core";
   styles: [require("./style.css")],
 })
 export default class SummaryComponent {
-  @Input() descrpition: string;
+  @Input() description: string;
   constructor() { }
 }
