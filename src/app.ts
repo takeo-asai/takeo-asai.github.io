@@ -8,6 +8,7 @@ import ExperienceComponent from "./experience";
 import SkillComponent from "./skill";
 import EducationComponent from "./education";
 import ContactComponent from "./contact";
+import SummaryComponent from "./summary";
 
 @Component({
   selector: "my-app",
@@ -22,6 +23,7 @@ class AppComponent { }
   ],
   // TODO: Add all components here!
   declarations: [
+    SummaryComponent,
     ExperienceComponent,
     HeaderComponent,
     AppComponent,
