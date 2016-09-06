@@ -1,0 +1,14 @@
+{
+  "lang": "ja",
+  "name": "Takeo Asai's Portfolio",
+  "short_name": "Takeo Asai",
+  "icons": [
+    {
+      "src": "/imgs/icon.png",
+      "sizes": "400x400",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://takeo-asai.github.io",
+  "display": "standalone"
+}

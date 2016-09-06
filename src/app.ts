@@ -32,3 +32,10 @@ class AppModule { }
 import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
 
 platformBrowserDynamic().bootstrapModule(AppModule);
+
+// ServiceWorker
+window.addEventListener('load', function() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  }
+});
