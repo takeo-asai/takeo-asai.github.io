@@ -1,0 +1,124 @@
+{
+  "name": "Takeo Asai",
+  "contacts": [
+    "mailto:spitson@gmail.com",
+    "https://github.com/takeo-asai"
+  ],
+  "educations": [
+    {
+      "schoolName": "東京大学大学院情報理工学系研究科コンピュータ科学 修了",
+      "year": 2016
+    },
+    {
+      "schoolName": "東京大学大学院情報理工学系研究科コンピュータ科学 進学",
+      "year": 2011
+    },
+    {
+      "schoolName": "東京大学理学部情報科学科 卒業",
+      "year": 2011
+    },
+    {
+      "schoolName": "東京大学理学部情報科学科 進学",
+      "year": 2009
+    },
+    {
+      "schoolName": "東京大学理科1類 入学",
+      "year": 2007
+    },
+    {
+      "schoolName": "渋谷教育学園幕張高等学校 卒業",
+      "year": 2006
+    }
+  ],
+  "summary": "2008/12-2009/2",
+  "experiences": [
+    {
+      "company": "Realglobe(アルバイト)",
+      "project": "Rayz type C (楽器アプリ)",
+      "members": 1,
+      "role": "iOS engineer",
+      "tools": [
+        "git", "objective-c"
+      ],
+      "description": [
+
+      ]
+    },
+    {
+      "company": "Realglobe(アルバイト)",
+      "project": "Comic Stream (電子書籍)",
+      "members": 1,
+      "term": "2009/4-2010/3",
+      "role": "Full stack engineer",
+      "tools": [
+        "git", "objective-c", "ruby on rails"
+      ],
+      "description": [
+        ""
+      ]
+    },
+    {
+      "company": "Stylerecipe",
+      "project": "Sutarepi (スタイリスト相談アプリ)",
+      "members": 6,
+      "term": "2016/4-2016/6",
+      "role": "iOS/Android engineer",
+      "tools": [
+        "slack", "git", "typescript", "ionic", "angularjs", "circleci"
+      ],
+      "description": [
+        "+ある程度の規模のアプリ開発になるため型付言語であるTypeScriptの採用を提案",
+        "+外注先のDocsが間違いだらけだったためCharlesで解析して独自Docs作成",
+        "サービス自体は外注で完成しており、その内製化のため担当",
+        "iOS/Androidアプリ設計/プログラミング担当",
+        "2ヶ月でローンチ。比較データを取る前にclosed"
+      ]
+    },
+    {
+      "company": "Stylerecipe",
+      "project": "yebisu (メルカリクローン)",
+      "members": 5,
+      "term": "2016/7-",
+      "role": "iOS/Android engineer",
+      "tools": [
+        "slack", "git", "typescript", "ionic", "angularjs", "webpack", "circleci", "fabric"
+      ],
+      "description": [
+        "+Sutarepiの開発で露見したフレームワークの問題回避のため、webpackの導入",
+        "+実機テストのための環境が整っていなかったので、fabricで自動配布の仕組み導入",
+        "+Sutarepi開発で使用したcomponentを再利用して開発の高速化",
+        "iOS/Androidアプリ設計/プログラミング担当"
+      ]
+    },
+    {
+      "company": "-",
+      "project": "ImagePicker (https://github.com/Telerik-Verified-Plugins/ImagePicker)",
+      "members": 1,
+      "term": "2016/6",
+      "role": "contributor",
+      "tools": [
+        "objective-c"
+      ],
+      "description": [
+        "+OSSへのcontribution",
+        "コードにバグが有ったためPR"
+      ]
+    },
+    {
+      "company": "-",
+      "project": "weLoge (ブログ編集ソフト)",
+      "members": 1,
+      "term": "2000?-2005",
+      "role": "Mac engineer",
+      "tools": [
+        "objective-c"
+      ],
+      "description": [
+        "+実際にアプリを公開してみて、ユーザーからのフィードバックが得られたことが非常に記憶に残っている",
+        "初の公開アプリケーション",
+        "アプリ設計/プログラミング/webサイト/UIとか全部担当"
+      ]
+    }
+  ],
+  "pr": "どんどん新しい技術をビジネスへと取り入れていきたい、と常にアンテナをはっています。直近のモバイルアプリ開発では日本ではまだメジャーではないIonicフレームワークを使い、iOSとAndroidアプリの開発を短期間で行いました。また、最新技術への知見を深めるために勉強会への積極的な参加をしており月1-2回は必ず出席し、何か発表できるよう勉強を重ねています。"
+}
