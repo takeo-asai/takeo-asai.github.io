@@ -34,8 +34,9 @@
   "experiences": [
     {
       "company": "Realglobe(アルバイト)",
-      "project": "Rayz type C (楽器アプリ)",
+      "project": "Rayz type C (楽器アプリ)[http://blogs.itmedia.co.jp/closebox/2009/04/for-iphonerayz-.html]",
       "members": 1,
+      "term": "2008/12-2009/2",
       "role": "iOS engineer",
       "tools": [
         "git", "objective-c"
@@ -46,7 +47,7 @@
     },
     {
       "company": "Realglobe(アルバイト)",
-      "project": "Comic Stream (電子書籍)",
+      "project": "Comic Stream (電子書籍)[http://www.3gapps.de/hersteller/realglobe-inc]",
       "members": 1,
       "term": "2009/4-2010/3",
       "role": "Full stack engineer",
@@ -54,12 +55,13 @@
         "git", "objective-c", "ruby on rails"
       ],
       "description": [
-        ""
+        "+",
+        "iOSアプリ設計/サーバーアプリ設計/仕様決定/運用/プログラミング担当"
       ]
     },
     {
       "company": "Stylerecipe",
-      "project": "Sutarepi (スタイリスト相談アプリ)",
+      "project": "Sutarepi (スタイリスト相談アプリ)[http://www.sutarepi.net]",
       "members": 6,
       "term": "2016/4-2016/6",
       "role": "iOS/Android engineer",
@@ -106,7 +108,7 @@
     },
     {
       "company": "-",
-      "project": "weLoge (ブログ編集ソフト)",
+      "project": "weLoge (ブログ編集ソフト)[http://good.s13.xrea.com/weloge/]",
       "members": 1,
       "term": "2000?-2005",
       "role": "Mac engineer",
