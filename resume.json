@@ -7,39 +7,69 @@
   "skills": [
     {
       "name": "objective-c",
-      "years": 10
+      "years": 10,
+      "description": [
+        ""
+      ]
     },
     {
       "name": "html/css",
-      "years": 6
+      "years": 6,
+      "description": [
+        ""
+      ]
     },
     {
       "name": "ruby",
-      "years": 5
+      "years": 5,
+      "description": [
+        ""
+      ]
     },
     {
       "name": "c",
-      "years": 3
+      "years": 3,
+      "description": [
+        ""
+      ]
     },
     {
       "name": "ruby on rails",
-      "years": 3
+      "years": 3,
+      "description": [
+        ""
+      ]
     },
     {
       "name": "ocaml",
-      "years": 1
+      "years": 1,
+      "description": [
+        "関数型言語による処理系作成",
+        "自作CPUに対するコンパイラの作成"
+      ]
     },
     {
       "name": "angular/ionic",
-      "years": 1
+      "years": 1,
+      "description": [
+        "モバイルアプリの作成",
+        "webpackなどツールを用いた環境構築"
+      ]
     },
     {
       "name": "typescript",
-      "years": 1
+      "years": 1,
+      "description": [
+        "モバイルアプリの作成",
+        "webpackなどツールを用いた環境構築"
+      ]
     },
     {
       "name": "筋トレ",
-      "years": 1
+      "years": 1,
+      "description": [
+        ""
+      ]
     }
   ],
   "researches": [
