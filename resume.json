@@ -10,12 +10,16 @@
       "years": 10
     },
     {
+      "name": "html/css",
+      "years": 6
+    },
+    {
       "name": "ruby",
       "years": 5
     },
     {
       "name": "c",
-      "years": 2
+      "years": 3
     },
     {
       "name": "ruby on rails",
@@ -34,8 +38,8 @@
       "years": 1
     },
     {
-      "name": "html/css",
-      "years": 6
+      "name": "筋トレ",
+      "years": 1
     }
   ],
   "researches": [
