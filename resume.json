@@ -1,8 +1,26 @@
 {
   "name": "Takeo Asai",
   "contacts": [
-    "mailto:spitson@gmail.com",
-    "https://github.com/takeo-asai"
+    "mailto:spitson@gmail.com"
+  ],
+  "url": "https://github.com/takeo-asai",
+  "skills": [
+    {
+      "name": "objective-c",
+      "years": 10
+    }
+  ],
+  "researches": [
+    {
+      "title": "Desktop Layout System Based on Wallpaper",
+      "summary": "We propose a semi-automatic icon layout technique to efficiently manage a large amount of icons on a desktop. Existing desktop layout methods arrange icons in a grid using name, timestamp and type of files. Such arrangements are not very helpful for users with specific aesthetic preference, so the user needs to manually rearrange desktop icons. Various file classification methods are proposed for automatic icon layout, but they do not consider the background image into account. Our method places important file icons taking the contents of the background image into account. We extract edges and other features in the background image and place icons of important files around these locations.",
+      "year": 2011
+    },
+    {
+      "title": "Traveling Tournament Problem for a small group",
+      "summary": "Recently, it has been in progress that computers calculate good quality schedules of sports competition based on opponents and locations and so on. For example, there are various ideas to create a good schedule: ``Break Minimization Problem'', which minimize to the number of continuations that teams play on the same grounds, ``Traveling Tournament Problem (TTP)'', which minimizes the sum of the distance that all teams travel. These various problems in this field are considered to be classified in NP-hard, and some of them were proved. It is too hard to complete the calculations in real time when the number of a team is bigger. Due to the difficulty of exact computation, researchers are trying not to solve exact answers, but to update lax answers iteratively using several metaheuristics methods such as genetic algorithm (GA). On the other hand, the existing softwares for TTP problems are high-cost and require expertise to correctly operate, which makes it hard for the small groups to introduce these system. Therefore, we propose a method to solve TTP problems rapidly with low cost, and develop a software which is suitable for small groups. We try to solve TTP problems quickly, saving money. TTP was compared with its similar problems, and the business mixed integer solver and the free solver were compared. Moreover, they were compared with the metaheuristics method. Thus, we found a small improvement for a small group.",
+      "year": 2016
+    }
   ],
   "educations": [
     {
@@ -39,7 +57,8 @@
       "term": "2008/12-2009/2",
       "role": "iOS engineer",
       "tools": [
-        "git", "objective-c"
+        "git",
+        "objective-c"
       ],
       "description": [
         "+当時何故かネット上で盛り上がった電子楽器を自分の趣味で自作、会社に採用される",
@@ -54,7 +73,9 @@
       "term": "2009/4-2010/3",
       "role": "Full stack engineer",
       "tools": [
-        "git", "objective-c", "ruby on rails"
+        "git",
+        "objective-c",
+        "ruby on rails"
       ],
       "description": [
         "+学研図鑑アプリのオーディションに残ったことがあります",
@@ -65,12 +86,14 @@
     },
     {
       "company": "Realglobe(アルバイト)",
-      "project": "中国人向け観光サイトとアプリ",
+      "project": "JapanFashion (中国人向け観光サイトとアプリ)",
       "members": 3,
       "term": "2009/7-2010/3",
       "role": "Full stack engineer",
       "tools": [
-        "git", "objective-c", "ruby on rails"
+        "git",
+        "objective-c",
+        "ruby on rails"
       ],
       "description": [
         "+途中でこのプロジェクトが別会社に移行したのでプロジェクトを抜ける",
@@ -85,7 +108,12 @@
       "term": "2016/4-2016/6",
       "role": "iOS/Android engineer",
       "tools": [
-        "slack", "git", "typescript", "ionic", "angularjs", "circleci"
+        "slack",
+        "git",
+        "typescript",
+        "ionic",
+        "angularjs",
+        "circleci"
       ],
       "description": [
         "+ある程度の規模のアプリ開発になるため型付言語であるTypeScriptの採用を提案",
@@ -102,7 +130,14 @@
       "term": "2016/7-",
       "role": "iOS/Android engineer",
       "tools": [
-        "slack", "git", "typescript", "ionic", "angularjs", "webpack", "circleci", "fabric"
+        "slack",
+        "git",
+        "typescript",
+        "ionic",
+        "angularjs",
+        "webpack",
+        "circleci",
+        "fabric"
       ],
       "description": [
         "+Sutarepiの開発で露見したフレームワークの問題回避のため、webpackの導入",
@@ -138,6 +173,20 @@
         "+実際にアプリを公開してみて、ユーザーからのフィードバックが得られたことが非常に記憶に残っている",
         "初の公開アプリケーション",
         "アプリ設計/プログラミング/webサイト/UIとか全部担当"
+      ]
+    },
+    {
+      "company": "-",
+      "project": "AppChangesNotification",
+      "members": 1,
+      "term": "2012-2012",
+      "role": "iOS engineer",
+      "tools": [
+        "objective-c"
+      ],
+      "description": [
+        "+実際にアプリを公開してみて、ユーザーからのフィードバックが得られたことが非常に記憶に残っている",
+        "フレームワーク公開"
       ]
     }
   ],
