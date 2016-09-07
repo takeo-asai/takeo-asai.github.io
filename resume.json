@@ -42,7 +42,9 @@
         "git", "objective-c"
       ],
       "description": [
-
+        "+当時何故かネット上で盛り上がった電子楽器を自分の趣味で自作、会社に採用される",
+        "iOSアプリ設計//プログラミング担当",
+        ""
       ]
     },
     {
@@ -55,8 +57,23 @@
         "git", "objective-c", "ruby on rails"
       ],
       "description": [
-        "+",
-        "iOSアプリ設計/サーバーアプリ設計/仕様決定/運用/プログラミング担当"
+        "",
+        "iOSアプリ設計/サーバーアプリ設計/仕様決定/運用/プログラミング担当",
+        "3ヶ月ほどで制作、その後保守/管理/機能追加要望",
+        ""
+      ]
+    },
+    {
+      "company": "Realglobe(アルバイト)",
+      "project": "中国人向け観光サイトとアプリ",
+      "members": 3,
+      "term": "2009/7-2010/3",
+      "role": "Full stack engineer",
+      "tools": [
+        "git", "objective-c", "ruby on rails"
+      ],
+      "description": [
+        ""
       ]
     },
     {
