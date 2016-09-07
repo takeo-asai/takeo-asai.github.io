@@ -8,6 +8,34 @@
     {
       "name": "objective-c",
       "years": 10
+    },
+    {
+      "name": "ruby",
+      "years": 5
+    },
+    {
+      "name": "c",
+      "years": 2
+    },
+    {
+      "name": "ruby on rails",
+      "years": 3
+    },
+    {
+      "name": "ocaml",
+      "years": 1
+    },
+    {
+      "name": "angular/ionic",
+      "years": 1
+    },
+    {
+      "name": "typescript",
+      "years": 1
+    },
+    {
+      "name": "html/css",
+      "years": 6
     }
   ],
   "researches": [
@@ -177,16 +205,17 @@
     },
     {
       "company": "-",
-      "project": "AppChangesNotification",
+      "project": "AppChangesNotification (フレームワーク)",
       "members": 1,
-      "term": "2012-2012",
+      "term": "2012/8",
       "role": "iOS engineer",
       "tools": [
         "objective-c"
       ],
       "description": [
-        "+実際にアプリを公開してみて、ユーザーからのフィードバックが得られたことが非常に記憶に残っている",
-        "フレームワーク公開"
+        "+オープンソースとして公開",
+        ".pistのdiffを取ることで最新版での機能追加をユーザーに通知するライブラリ",
+        "誰もplistに更新履歴を書かないことがわかったので公開停止"
       ]
     }
   ],
