@@ -9,35 +9,38 @@
       "name": "objective-c",
       "years": 10,
       "description": [
-        ""
+        "iOSアプリ設計/開発",
+        "Macアプリ設計/開発"
       ]
     },
     {
       "name": "html/css",
       "years": 6,
       "description": [
-        ""
+        "web componentを用いた共通化"
       ]
     },
     {
       "name": "ruby",
       "years": 5,
       "description": [
-        ""
+        "スクレイピングなどデータ処理",
+        "アルゴリズムの実装"
       ]
     },
     {
       "name": "c",
       "years": 3,
       "description": [
-        ""
+        "アルゴリズムの実装"
       ]
     },
     {
       "name": "ruby on rails",
       "years": 3,
       "description": [
-        ""
+        "webサイトの設計/開発",
+        "apiサーバーの設計/開発"
       ]
     },
     {
@@ -68,7 +71,7 @@
       "name": "筋トレ",
       "years": 1,
       "description": [
-        ""
+        "定期的な運動習慣"
       ]
     }
   ],
